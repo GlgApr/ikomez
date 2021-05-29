@@ -1,4 +1,7 @@
 extends('layout.app')
+@section('title')
+Store Homepage
+@endsection
 @section('content')
 <div class="page-content page-home">
       <section class="store-carousel">
