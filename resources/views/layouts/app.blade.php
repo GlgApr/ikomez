@@ -16,47 +16,7 @@
   </head>
 
   <body>
-    <nav
-      class="navbar navbar-expand-lg navbar-light navbar-store fixed-top navbar-fixed-top"
-      data-aos="fade-down"
-    >
-      <div class="container">
-        <a href="/index.html" class="navbar-brand">
-          <img src="images/logo.svg" alt="Logo Lupabapak TokoPaedi" />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarResponsive"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a href="/index.html" class="nav-link">Beranda</a>
-            </li>
-            <li class="nav-item">
-              <a href="/categories.html" class="nav-link">Kategori</a>
-            </li>
-            <li class="nav-item">
-              <a href="/#" class="nav-link">Reward</a>
-            </li>
-            <li class="nav-item">
-              <a href="/register.html" class="nav-link">Sign Up</a>
-            </li>
-            <li class="nav-item">
-              <a
-                href="/login.html"
-                class="btn btn-success nav-link px-4 text-white"
-                >Sign In</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+   <!-- Navbar -->
     <!-- Page Content -->
     <div class="page-content page-home">
       <section class="store-carousel">
@@ -369,17 +329,7 @@
         </div>
       </section>
     </div>
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-12 text-center">
-            <p class="pt-4 pb-2">
-              2021 Copyright Lupabapak Tokopaedi. All Right Reserved.
-            </p>
-          </div>
-        </div>
-      </div>
-    </footer>
+<!-- Footer -->
     <!-- Bootstrap core JavaScript -->
     <script src="/vendor/jquery/jquery.slim.min.js"></script>
     <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
