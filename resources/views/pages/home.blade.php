@@ -1,3 +1,5 @@
+extends('layout.app')
+@section('content')
 <div class="page-content page-home">
       <section class="store-carousel">
         <div class="container">
@@ -309,3 +311,4 @@
         </div>
       </section>
     </div>
+@endsection

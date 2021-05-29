@@ -9,17 +9,26 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
 
-    <title>Store - Your Best Marketplace</title>
-<!-- Style  -->
+    <title>@yield('title')</title>
+    <!-- Style  -->
+    @stack('prepend-style')
+    @include('includes.style')
+    @stack('addon-style')
     </head>
 
-  <body>
+    <body>
    <!-- Navbar -->
+   @include('includes.navbar')
 
     <!-- Page Content -->
+    @yield('content')
     
-<!-- Footer -->
+    <!-- Footer -->
+    @include('includes.footer')
 
-<!-- Script  -->
+    <!-- Script  -->
+    @stack('prepend-script')
+    @include('includes.script')
+    @stack('addon-script')
      </body>
-</html>
+    </html>
