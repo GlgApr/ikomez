@@ -3,8 +3,8 @@
       data-aos="fade-down"
     >
       <div class="container">
-        <a href="/index.html" class="navbar-brand">
-          <img src="images/logo.svg" alt="Logo Lupabapak TokoPaedi" />
+        <a href="{{ route('home') }}" class="navbar-brand">
+          <img src="/images/logo.svg" alt="Logo Lupabapak TokoPaedi" />
         </a>
         <button
           class="navbar-toggler"
@@ -17,10 +17,10 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a href="/index.html" class="nav-link">Beranda</a>
+              <a href="{{ route('home') }}" class="nav-link">Beranda</a>
             </li>
             <li class="nav-item">
-              <a href="/categories.html" class="nav-link">Kategori</a>
+              <a href="{{ route('categories') }}" class="nav-link">Kategori</a>
             </li>
             <li class="nav-item">
               <a href="/#" class="nav-link">Reward</a>

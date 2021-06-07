@@ -17,6 +17,8 @@
     </head>
 
     <body>
+   <!-- Navbar -->
+   @include('includes.navbar-auth')
 
     <!-- Page Content -->
     @yield('content')
